@@ -23,8 +23,8 @@ A while back I attempted a group project to create a check-in / check-out system
    - [ ] Add new pets
    - [ ] Summary of pets & check-in/out status
   - Second page should display:
-   - [ ]check-in & check-out dates for each pet
-   - [ ]pets checked-in but not out should appear at the top of the page
+   - [ ] check-in & check-out dates for each pet
+   - [ ] pets checked-in but not out should appear at the top of the page
    - [ ] Add Bootstrap styling to the pages
  
  
