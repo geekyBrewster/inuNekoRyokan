@@ -1,0 +1,26 @@
+{
+  "name": "inunekoryokan",
+  "version": "1.0.0",
+  "description": "A while back I attempted a group project to create a check-in / check-out system for a pet hotel. We didn't get the web app complete, as it was our first time using git branching and that slowed down our workflow. But I liked the project, so I'm going to build my own as a side project over the next few weeks, since it'll be good SQL practice.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekyBrewster/inuNekoRyokan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geekyBrewster/inuNekoRyokan/issues"
+  },
+  "homepage": "https://github.com/geekyBrewster/inuNekoRyokan#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jquery": "^3.2.1",
+    "pg": "^7.2.0"
+  }
+}
