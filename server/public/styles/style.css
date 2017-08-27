@@ -1,0 +1,9 @@
+/*--- THE LATEST VERSION OF BOOTSTRAP OVERRIDES MORE OF THE BASE ELMENT FORMATTING ---*/
+/*-- USE CLASSES AND IDs TO ADD YOUR OWN FORMATTING, NEED THE SPECIFICITY --*/
+
+#mainBody {
+  background-color: antiqueWhite;
+}
+.title {
+  color: purple;
+}

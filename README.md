@@ -7,7 +7,7 @@ A while back I attempted a group project to create a check-in / check-out system
 - Node.js
 - Express
 - SQL
-- Bootstrap
+- Bootstrap v4
 
 *Tasks*
   - [ ] Add new owners: first name & last name
@@ -26,8 +26,8 @@ A while back I attempted a group project to create a check-in / check-out system
    - [ ] check-in & check-out dates for each pet
    - [ ] pets checked-in but not out should appear at the top of the page
    - [ ] Add Bootstrap styling to the pages
- 
- 
+
+
  *Databases*
   - Table 1: Owners (first name & last name)
   - Table 2: Pets (name, breed, color, owner id, check-in status (default to checked in)

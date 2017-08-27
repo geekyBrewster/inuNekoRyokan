@@ -12,8 +12,8 @@ app.use('/pets', petsRoute);
 
 // Serve back static files by default
 app.get('/*', function(req, res){
-  var file = req.params[0] || '/views/index.html';
-  res.sendFile(path.join(__dirname, '/public/', file));
+  var file = req.params[0] || 'views/index.html';
+  res.sendFile(path.join(__dirname, '/public', file));
 });
 
 // Start listenting for requests at given PORT
