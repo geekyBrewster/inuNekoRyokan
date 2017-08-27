@@ -3,12 +3,13 @@ var app = express();
 var bodyParser = require('body-parser');
 var path = require('path');
 var port = process.env.PORT || 7000;
-var petsRoute = require('./routes/pets.js');
+var petsRoute = require('./routes/pets.router.js');
+var ownersRoute = require('./routes/owners.router.js');
 
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use('/pets', petsRoute);
-
+app.use('/owners', ownersRoute);
 
 // Serve back static files by default
 app.get('/*', function(req, res){

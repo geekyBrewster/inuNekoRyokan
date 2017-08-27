@@ -11,7 +11,7 @@
 </head>
 
 <body id="mainBody">
-  <div class="container">
+  <div class="container" id="titleBar">
     <div class="row align-items-center" id=header>
       <div class="col">
         <img id="inuImage" src="https://images.unsplash.com/photo-1453365607868-7deed8cc7d26?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=" alt="" width="200px;">
@@ -32,7 +32,7 @@
             <label for="lastName">Last Name</label>
             <input type="text" class="form-control" id="lastName" placeholder="Enter owner's last name">
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary" id="newCustomerButton">Submit</button>
         </form>
       </div>
       <div class="col" id="addPet">
@@ -56,12 +56,12 @@
               <option value=""></option>
             </select>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary" id="newPetButton">Submit</button>
         </form>
       </div>
     </div>
     <div class="row">
-      <table class="table">
+      <table class="table" id="petTable">
         <thead>
           <tr>
             <th>Owner ID</th>
