@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Ryokan Inu-Neko</title>
   <link rel="stylesheet" href="./styles/style.css">
-  <!-- Bootstrap CSS & x-editable -->
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 
 <body id="mainBody">
-  <div class="container" id="titleBar">
-    <div class="row align-items-center" id=header>
-      <div class="col">
-        <img id="inuImage" src="https://images.unsplash.com/photo-1453365607868-7deed8cc7d26?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=" alt="" width="200px;">
+  <div class="container">
+    <div class="row align-items-right" id="titleBar">
+      <div class="col-6">
+
       </div>
-      <div class="col-8">
-        <h1 class="title">Welcome to Ryokan Inu-Neko</h1>
+      <div class="col-6" id="titleBox">
+        <h1 class="title">Welcome to </br>Ryokan Inu-Neko</h1>
         <p>A restful stay for your furry family members.</p>
       </div>
     </div>
-    <div class="row" id="functions">
+    <div class="row" id="addDataBox">
       <div class="col" id="addOwner">
         <form>
           <div class="form-group">
@@ -60,7 +59,7 @@
         </form>
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="tableBox">
       <table class="table" id="petTable">
         <thead>
           <tr>
@@ -76,7 +75,7 @@
             <th>Delete</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="petTableContent">
           <!-- Use jquery to append pets here -->
         </tbody>
       </table>

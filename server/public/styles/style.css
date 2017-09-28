@@ -3,7 +3,17 @@
 
 #mainBody {
   background-color: antiqueWhite;
+  background-image: url("../assets/dog_on_a_balcony.jpg");
+  background-size: cover;
 }
 .title {
-  color: purple;
+  color: yellow;
+  text-shadow: 1px 1px 1px black;
+}
+#titleBox {
+  text-align: right;
+}
+#addDataBox, #tableBox{
+  background-color: rgba(50, 50, 50, 0.5);
+  color: white;
 }

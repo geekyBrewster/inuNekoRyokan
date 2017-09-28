@@ -1,6 +1,6 @@
 # Ryokan Inu-Neko: A pet hotel
 
-A while back I attempted a group project to create a check-in / check-out system for a pet hotel. We didn't get the web app complete, as it was our first time using git branching and that slowed down our workflow. But I liked the project, so I'm going to build my own as a side project over the next few weeks, since it'll be good SQL practice.
+A while back I attempted a group project to create a check-in / check-out system for a pet hotel. We didn't get the app complete, since it was our first time using git branching and that slowed down our workflow. But I liked the project, so I'm going to build my own as a side project over the next few weeks, since it'll be good SQL and jQuery practice.
 
 **Technologies**
 - jQuery
